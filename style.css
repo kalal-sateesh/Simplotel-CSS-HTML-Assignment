@@ -38,7 +38,7 @@ input[type="checkbox"] {
   display: none;
   font-size: 24px;
   user-select: none;
-  margin-left: 33px;
+  margin-left: 35px;
 }
 .section-1 {
   width: 100%;
@@ -240,6 +240,12 @@ input[type="checkbox"] {
   }
   .hamburgur {
     display: block;
+    margin-right: 35px;
+  }
+  nav{
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
   }
   nav a div {
     margin-top: 10px;
